@@ -12,7 +12,7 @@ export default () => {
           backgroundSize: "cover"
         }}
       >
-        <Crumb />
+        <Crumb dark />
         <div className="hero-body">
           <div className="container">
             <div className="title">Global Cafe</div>

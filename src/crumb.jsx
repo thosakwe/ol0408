@@ -23,7 +23,7 @@ export default class extends React.Component {
 
           <a
             role="button"
-            className="navbar-burger burger"
+            className={`navbar-burger burger ${this.props.dark && "is-dark"}`}
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
@@ -67,10 +67,13 @@ export default class extends React.Component {
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is-primary">
+                <a
+                  className="button is-primary"
+                  href="https://thosakwe.github.io/ol0408"
+                  target="_blank"
+                >
                   <strong>Github</strong>
                 </a>
-                <a className="button is-light">Log in</a>
               </div>
             </div>
           </div>
