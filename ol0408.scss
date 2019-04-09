@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+$red: #782F40;
+$yellow: #CEB888;
+$black: #2C2A29;
+$white: #FFFFFF;
+$primary: $red;
+
+@media screen and (min-width: 769px) {
+    .hero.is-medium {
+        min-height: 30em;
+    }
+}
+
+section p:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+@import "node_modules/bulma/sass/utilities/_all.sass";
+@import "node_modules/bulma/sass/base/_all.sass";
+@import "node_modules/bulma/sass/elements/button.sass";
+@import "node_modules/bulma/sass/elements/container.sass";
+@import "node_modules/bulma/sass/elements/form.sass";
+@import "node_modules/bulma/sass/elements/title.sass";
+@import "node_modules/bulma/sass/components/navbar.sass";
+@import "node_modules/bulma/sass/layout/hero.sass";
+@import "node_modules/bulma/sass/layout/section.sass";
+
+.section {
+    padding: 1rem 1.5rem;
+}

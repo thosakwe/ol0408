@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "bulma": "^0.7.4",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.18.0"
+  },
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel serve index.html --open"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  }
+}
